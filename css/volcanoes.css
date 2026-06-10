@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  background: #004080;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index: 1000;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+nav li {
+  margin: 0 15px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav a:hover {
+  color: #FFD700;
+}
+
+/* Destination content */
+.destination-detail {
+  text-align: center;
+  margin: 30px;
+}
+.destination-detail h1 {
+  color: #004080;
+}
+.destination-detail img {
+  max-width: 600px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+/* Section titles */
+.section-title {
+  color: #004080;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px auto;
+  max-width: 1100px;
+}
+.card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  width: 260px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.card h3 {
+  color: #004080;
+  margin: 8px 0;
+}
+.card p {
+  font-size: 0.9em;
+  margin: 8px 0;
+}
+.card a {
+  color: #004080;
+  text-decoration: none;
+}
+.card a:hover {
+  color: #FFD700;
+}
+
+/* Footer */
+footer {
+  background: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}

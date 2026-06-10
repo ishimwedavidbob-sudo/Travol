@@ -1,0 +1,64 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #000; /* Elegant black background */
+  color: #FFD700; /* Warm gold text */
+}
+
+/* Header */
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  color: #FFD700;
+}
+
+/* Navigation */
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: #FFD700;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+}
+nav a:hover {
+  color: white;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+.hero img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+  text-align: center;
+}
+.quote {
+  font-style: italic;
+  margin: 20px;
+  font-size: 1.3em;
+  color: #FFD700;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  color: white;
+}

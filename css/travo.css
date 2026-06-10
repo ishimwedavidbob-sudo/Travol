@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  background: #004080;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #FFD700;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('pics/travo_background.jpg') center/cover no-repeat;
+  color: white;
+}
+.hero-overlay {
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.hero h1 {
+  font-size: 50px;
+}
+.hero .quote {
+  color: #FFD700;
+}
+.hero button {
+  padding: 10px 20px;
+  background: #FFD700;
+  border: none;
+  cursor: pointer;
+}
+.hero button:hover {
+  background: white;
+  color: #004080;
+}
+
+/* Search */
+.search {
+  text-align: center;
+  margin: 30px;
+}
+.search input {
+  padding: 8px;
+  width: 280px;
+}
+.search button {
+  padding: 8px 15px;
+  background: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.search button:hover {
+  background: #FFD700;
+  color: #004080;
+}
+
+/* Destinations */
+.destinations {
+  text-align: center;
+  padding: 30px;
+}
+.destinations h2 {
+  color: #004080;
+}
+.card {
+  display: inline-block;
+  width: 240px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card h3 {
+  color: #004080;
+}
+
+/* Booking */
+.booking {
+  padding: 30px;
+  background: #e6f2ff;
+  text-align: center;
+}
+.booking input {
+  padding: 8px;
+  margin: 5px;
+  width: 220px;
+}
+.booking button {
+  padding: 10px 20px;
+  background: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.booking button:hover {
+  background: #FFD700;
+  color: #004080;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 30px;
+  text-align: center;
+}
+.testimonials blockquote {
+  background: #fff;
+  padding: 15px;
+  margin: 15px auto;
+  width: 60%;
+  border-left: 4px solid #FFD700;
+}
+
+/* Newsletter */
+.newsletter {
+  padding: 30px;
+  background: #004080;
+  color: white;
+  text-align: center;
+}
+.newsletter input {
+  padding: 8px;
+  width: 220px;
+  border: none;
+  border-radius: 4px;
+}
+.newsletter button {
+  padding: 8px 15px;
+  background: #FFD700;
+  border: none;
+  cursor: pointer;
+}
+.newsletter button:hover {
+  background: white;
+  color: #004080;
+}
+
+/* Footer */
+footer {
+  background: #00264d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+footer a {
+  color: #FFD700;
+  margin: 0 8px;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

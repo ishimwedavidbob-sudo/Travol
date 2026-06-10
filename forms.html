@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travo - Booking Form</title>
+  <link rel="stylesheet" href="css/forms.css">
+</head>
+<body class="booking-body">
+
+  <div class="overlay">
+    <h1>Book Your Rwanda Experience</h1>
+
+    <!-- form -->
+    <form action="#" method="post" class="booking-form">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Destination</label><br>
+          <select name="destination" required>
+            <option value="">Where are you going?</option>
+            <option>Volcanoes National Park</option>
+            <option>Akagera National Park</option>
+            <option>Nyungwe Forest</option>
+            <option>Lake Kivu</option>
+            <option>Kigali City Tour</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Check-in</label><br>
+          <input type="date" name="checkin" required>
+        </div>
+        <div class="form-group">
+          <label>Check-out</label><br>
+          <input type="date" name="checkout" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Rooms</label><br>
+          <input type="number" name="rooms" min="1" value="1">
+        </div>
+        <div class="form-group">
+          <label>Adults</label><br>
+          <input type="number" name="adults" min="1" value="2">
+        </div>
+        <div class="form-group">
+          <label>Kids</label><br>
+          <input type="number" name="kids" min="0" value="0">
+        </div>
+      </div>
+
+      <!-- room type -->
+      <div class="form-group full-width">
+        <label>Room Type</label><br>
+        <select name="room_type" required>
+          <option value="">Select Room Type</option>
+          <option>Kigali Serena Hotel - Luxury Suite</option>
+          <option>Radisson Blu Kigali - Executive Suite</option>
+          <option>Virunga Lodge - Deluxe Cottage</option>
+          <option>One&Only Nyungwe House - Forest Villa</option>
+          <option>Amakoro Songa Lodge - Eco Villa</option>
+          <option>Five to Five Hotel - Standard Double</option>
+          <option>Akagera Game Lodge - Twin Room</option>
+          <option>Kigali Marriott - Family Apartment</option>
+          <option>Lake Kivu Serena Resort - Family Suite</option>
+          <option>Musanze Guesthouse - Budget Room</option>
+          <option>Kigali Hostel - Shared Room</option>
+          <option>Magashi Safari Camp - Luxury Tent</option>
+          <option>Akagera Campsite - Safari Tent</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Preferred Hotel/Restaurant</label><br>
+          <select name="accommodation">
+            <option>Kigali Serena Hotel</option>
+            <option>Radisson Blu Kigali</option>
+            <option>Lake Kivu Serena Resort</option>
+            <option>Inyange Restaurant</option>
+            <option>Local Guesthouse</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Transport Agency</label><br>
+          <select name="transport">
+            <option>RwandAir</option>
+            <option>Akagera Coaches</option>
+            <option>Safari Van Hire Rwanda</option>
+            <option>Europcar Rwanda</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Full Name</label><br>
+          <input type="text" name="name" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label><br>
+          <input type="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label>Phone</label><br>
+          <input type="tel" name="phone">
+        </div>
+      </div>
+
+      <div class="form-group full-width">
+        <label>Special Requests</label><br>
+        <textarea name="requests" rows="3"></textarea>
+      </div>
+
+      <div class="form-row">
+        <input type="submit" value="Book Now" class="btn-primary">
+        <input type="reset" value="Reset" class="btn-secondary">
+      </div>
+    </form>
+
+    <a href="travo.html" class="back-link">Back to Home Page</a>
+  </div>
+</body>
+</html>
