@@ -1,3 +1,4 @@
+/* General page styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -5,9 +6,9 @@ body {
   color: #333;
 }
 
-/* Navigation */
+/* Navigation bar */
 nav {
-  background: #004080;
+  background: #004080; /* Deep blue header */
   padding: 15px;
   position: sticky;
   top: 0;
@@ -23,17 +24,19 @@ nav li {
   margin: 0 15px;
 }
 nav a {
-  color: #fff;
+  color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 nav a:hover {
-  color: #FFD700;
+  color: #FFD700; /* Gold hover effect */
 }
 
 /* Destination content */
 .destination-detail {
+  width: 80%;
+  margin: 30px auto;
   text-align: center;
-  margin: 30px;
 }
 .destination-detail h1 {
   color: #004080;
@@ -41,41 +44,41 @@ nav a:hover {
 .destination-detail img {
   max-width: 600px;
   border-radius: 8px;
-  margin: 15px 0;
+  margin: 20px 0;
+}
+.destination-detail h2 {
+  color: #004080;
+  margin-top: 30px;
 }
 
-/* Cards container */
-.cards-container {
+/* Cards layout */
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  margin: 20px auto;
-  max-width: 1100px;
+  margin-top: 15px;
 }
-.info-card {
+.card {
   background: #fff;
   border-radius: 8px;
-  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 250px;
   padding: 10px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
   text-align: center;
 }
-.info-card h2 {
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card h3 {
   color: #004080;
 }
-.info-card ul {
-  list-style: none;
-  padding: 0;
-}
-.info-card li {
-  margin: 8px 0;
-}
-.info-card a {
+.card a {
   color: #004080;
   text-decoration: none;
 }
-.info-card a:hover {
+.card a:hover h3 {
   text-decoration: underline;
 }
 
